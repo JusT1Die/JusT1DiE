@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
   console.log(Logged in as ${client.user.tag}!);
- client.user.setGame('s!help | *By iTzMoody','https://www.twitch.tv/peery13%27);
+ client.user.setGame('s!help | *By iTzMoody','لول');
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -41,5 +41,4 @@ var channel = "499933149573283862";
     client.guilds.get(server).channels.get(channel).send('#daily')
     },86400);
 })
-client.login(process.env.BOT_TOKEN);
 
